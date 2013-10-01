@@ -21,6 +21,7 @@ $node = $nodes[0];
 <html>
 <head>
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PipeStack Developers</title>
@@ -33,7 +34,7 @@ $node = $nodes[0];
         <div data-role="header">
             <a data-icon="arrow-l" data-rel="back">back</a>
             <h1>PipeStack Docs</h1>
-            <a href="dialogs/browse.php" data-role="button" data-rel="dialog" data-icon="home" data-prefetch>menu</a>
+            <a href="dialogs/browse.php" data-role="button" data-icon="home" data-prefetch>menu</a>
         </div>
 
         <div data-role="content">
