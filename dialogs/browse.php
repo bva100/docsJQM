@@ -31,7 +31,7 @@ try{
 
 <div data-role="page">
     <div data-role="header">
-        <a data-icon="arrow-l" data-rel="back">x</a>
+        <a data-rel="back" data-icon="delete" data-iconpos="notext">back</a>
         <h1 class="ui-title" role="heading" aria-level="1">Browse Docs</h1>
     </div>
     <div data-role="content">
