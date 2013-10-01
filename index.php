@@ -48,23 +48,7 @@ $node = $nodes[0];
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
     <script type="text/javascript">
         $(document).on( "pageinit", function( event ) {
-//            $(".doc-json").each(function(){
-//                var json = JSON.parse($(this).text());
-//                if(!json){
-//                   json = $(this).text();
-//                }
-//                var formatted = JSON.stringify(json, null, 6);
-//                $(this).text(formatted);
-//            });
-//            var docs = document.getElementsByClassName("doc-json");
-//            for (var i=0; i<docs.length; i++)
-//            {
-//                var json = JSON.parse(docs[i].textContent);
-//                var formatted = JSON.stringify(json, null, 6);
-//                docs[i].innerHTML = formatted;
-//            }
-            
-            $("pre").css("background-color", "white").css("padding", "20px");
+            $("pre").hide();
         });
     </script>
 </body>
