@@ -36,7 +36,7 @@ $node = $nodes[0];
 
         <div data-role="content">
             <h1 style="text-align: center"><?php echo ucwords($node->title) ?></h1>
-            <p><?php echo $node->views->html ?></p>
+            <p><?php echo wordwrap($node->views->html); ?></p>
         </div>
 
         <a data-role="button" data-theme="b" href="dialogs/browse.php">Explore the Docs</a>
