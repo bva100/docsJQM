@@ -20,11 +20,12 @@ $node = $nodes[0];
 <!DOCTYPE html>
 <html>
 <head>
+    <title>PipeStack Developers</title>
+    <meta name="apple-mobile-web-app-title" content="PipeStack">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PipeStack Docs</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 </head>
 <body>
