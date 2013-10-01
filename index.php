@@ -33,7 +33,7 @@ $node = $nodes[0];
         <div data-role="header">
             <a data-icon="arrow-l" data-rel="back">back</a>
             <h1>PipeStack Docs</h1>
-            <a href="dialogs/browse.php" data-role="button" data-rel="dialog" data-icon="home" data-transition="slidedown" data-prefetch>menu</a>
+            <a href="dialogs/browse.php" data-role="button" data-rel="dialog" data-icon="home" data-prefetch>menu</a>
         </div>
 
         <div data-role="content">
